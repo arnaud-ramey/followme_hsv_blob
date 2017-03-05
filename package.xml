@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>followme_hsv_blob</name>
+  <version>0.0.0</version>
+  <description>
+    followme_hsv_blob is used to follow a moving goal, made of a colorful marker.
+  </description>
+  <maintainer email="arnaud.a.ramey@gmail.com">Arnaud Ramey</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>cv_bridge</depend>
+  <depend>followme_laser</depend>
+  <depend>image_transport</depend>
+  <depend>opencv3</depend>
+  <export>
+    <cpp cflags="-I${prefix} -I${prefix}/build"
+         lflags="-lim -L${prefix}/lib -Wl,-rpath,${prefix}/lib" />
+  </export>
+</package>
