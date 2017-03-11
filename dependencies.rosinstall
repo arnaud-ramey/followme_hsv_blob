@@ -1,3 +1,6 @@
 - git:
     local-name: followme_laser
     uri: https://github.com/arnaud-ramey/followme_laser.git
+- git:
+    local-name: vision_utils
+    uri: https://github.com/UC3MSocialRobots/vision_utils.git
